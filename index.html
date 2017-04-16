@@ -3,10 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <title>Drums</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+        <h1>DRUMS</h1>
+        <p>Press the keys and play :)</p>
+    </header>
     <div class="keyboard">
-
+        <div data-key="65" class="key">
+            <span class="character">a</span>
+            <span class="sound">clap</span>
+        </div>
+        <div data-key="66" class="key">
+            <span class="character">s</span>
+            <span class="sound">hihat</span>
+        </div>
+        <div data-key="67" class="key">
+            <span class="character">d</span>
+            <span class="sound">kick</span>
+        </div>
+        <div data-key="68" class="key">
+            <span class="character">f</span>
+            <span class="sound">openhat</span>
+        </div>
+        <div data-key="69" class="key">
+            <span class="character">g</span>
+            <span class="sound">boom</span>
+        </div>
+        <div data-key="70" class="key">
+            <span class="character">h</span>
+            <span class="sound">ride</span>
+        </div>
+        <div data-key="71" class="key">
+            <span class="character">j</span>
+            <span class="sound">snare</span>
+        </div>
+        <div data-key="72" class="key">
+            <span class="character">k</span>
+            <span class="sound">tom</span>
+        </div>
+        <div data-key="73" class="key">
+            <span class="character">l</span>
+            <span class="sound">tink</span>
+        </div>
     </div>
+    <audio data-key="65" src="sounds/clap.wav"></audio>
+    <audio data-key="66" src="sounds/hihat.wav"></audio>
+    <audio data-key="67" src="sounds/kick.wav"></audio>
+    <audio data-key="68" src="sounds/clap.wav"></audio>
+    <audio data-key="69" src="sounds/clap.wav"></audio>
+    <audio data-key="70" src="sounds/clap.wav"></audio>
+    <audio data-key="71" src="sounds/clap.wav"></audio>
+    <audio data-key="72" src="sounds/clap.wav"></audio>
+    <audio data-key="73" src="sounds/clap.wav"></audio>
+<script type="text/javascript" src="script.js"></script>
 </body>
 </html>
