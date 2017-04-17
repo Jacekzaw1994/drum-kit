@@ -103,3 +103,35 @@ header p {
     color: yellow;
     box-shadow: 0 0 2px yellow;
 }
+
+.musicalBars {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 30px 20px 0;
+    box-sizing: border-box;
+    transition: all 0.1s;
+}
+
+.musicalBars .bar {
+    height: 90px;
+    width: 60px;
+    margin: 0 10px;
+    position: relative;
+    box-sizing: border-box;
+    border-bottom: 4px solid #000;
+}
+
+.musicalBars .bar div {
+    background-color: #000;
+    width: 100%;
+    height: 0;
+    position: absolute;
+    bottom: 0;
+    transition: all 0.1s;
+}
+
+.bar.active div {
+    height: 100%;
+}
+
